@@ -4,5 +4,5 @@ node_js:
 install:
   - yarn
 script:
-  - yarn run coverage
+  - yarn run test:coverage
 sudo: false
