@@ -20,7 +20,7 @@ It is also a good base for your node or CLI apps and is designed to be:
 - `.editorconfig`
 - relateable linting rules
 - tests & test coverage
-- `create-node-app` cli tool
+- `create-nodejs-app` cli tool (WIP)
 - `live-reload` when you save a file.
 
 ## Debug in vscode
