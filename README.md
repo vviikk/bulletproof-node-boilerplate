@@ -19,6 +19,7 @@ It is also a good base for your CLI apps and is designed to be:
 - relateable linting rules
 - tests & test coverage
 - `create-node-app` cli tool
+- `live-reload` when you save a file.
 
 ## Debug in vscode
 
@@ -28,9 +29,12 @@ It is also a good base for your CLI apps and is designed to be:
 
 ![Debug with nvm version in .nvmrc](./assets/debug-vscode-choices.png "Debug using F5 in vscode")
 
-Progress Tracker
+### Progress Tracker
 
 - [ ] use `create-new-cli` to provision node app
+- [X] maintain node version compatibility
+  - [X] Latest LTS
+  - [X] Node 6+
 - [X] perform live-reload of all scripts using nodemon
 - [X] provide testing using Jest
 - [X] provide TravisCI basic testing
