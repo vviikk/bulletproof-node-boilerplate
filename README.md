@@ -1,5 +1,7 @@
 # Bulletproof Nodejs Boilerplate
 
+![Travis build status][travis]
+
 Lean, and functional boilerplate to get you started with creating a nodejs app. You have ES6/7, corresponding linting rules, a debugging config for `vscode`, Jest test runner.
 
 No tie-up with any plugins like Express and the likes. It's a barebones NodeJS app with live-reload, testing, test-coverage and a simple TravisCI build.
@@ -46,3 +48,7 @@ It is also a good base for your node or CLI apps and is designed to be:
 - [ ] allow options for 3rd party linting rules (standard, airbnb)
 - [X] debug using vscode's node debugger
   - [ ] use babel sourcemaps during debgging (workaround, use `debugger`)
+
+
+
+[travis]: https://travis-ci.org/piggyslasher/bulletproof-node-boilerplate.svg?branch=master "TravisCI Build Status"
