@@ -23,7 +23,7 @@
     "no-console": ["error", { "allow": ["log", "warn"] }],
     "comma-dangle":  ["error", "always-multiline"],
     "import/extensions": [0],
-    "import/no-extraneous-dependencies": [0], // TODO fix later
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}],
     "import/no-unresolved": [0], // TODO fix later
     "import/first": [0],
     "linebreak-style": 0,

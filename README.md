@@ -1,10 +1,10 @@
-# Create Node App
+# Bulletproof Nodejs Boilerplate
 
 Lean, and functional boilerplate to get you started with creating a nodejs app. You have ES6/7, corresponding linting rules, a debugging config for `vscode`, Jest test runner.
 
 No tie-up with any plugins like Express and the likes. It's a barebones NodeJS app with live-reload, testing, test-coverage and a simple TravisCI build.
 
-It is also a good base for your CLI apps and is designed to be:
+It is also a good base for your node or CLI apps and is designed to be:
 
 - Compatible with latest LTS of node, but backwards compatible with Node 6 (you'll need to run `yarn run start:legacy`)
 - Forward-thinking (async / await / object spreads and the likes)
