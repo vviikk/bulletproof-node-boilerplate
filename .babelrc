@@ -1,4 +1,16 @@
 {
-    "presets": ["env"],
-    "plugins": ["transform-object-rest-spread"]
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "node": "current"
+                }
+            }
+        ]
+    ],
+    "plugins": [
+        "transform-object-rest-spread",
+        "transform-util-promisify"
+    ]
 }
