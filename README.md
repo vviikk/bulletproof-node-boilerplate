@@ -1,6 +1,8 @@
 # Bulletproof Nodejs Boilerplate
 
 ![Travis build status][travis]
+[![Share on Twitter][twitter-share-button]][twitter-share-link]
+[![Coverage Status][coverall-badge]][coverall-link]
 
 Lean, and functional boilerplate to get you started with creating a nodejs app. You have ES6/7, corresponding linting rules, a debugging config for `vscode`, Jest test runner.
 
@@ -27,7 +29,7 @@ It is also a good base for your node or CLI apps and is designed to be:
 
 ![Debug using VSCode](./assets/debug-vscode.png "Debug using F5 in vscode")
 
-### Using NVM? Got you covered
+### Using `nvm`? Got you covered
 
 ![Debug with nvm version in .nvmrc](./assets/debug-vscode-choices.png "Debug using F5 in vscode")
 
@@ -52,3 +54,8 @@ It is also a good base for your node or CLI apps and is designed to be:
 
 
 [travis]: https://travis-ci.org/piggyslasher/bulletproof-node-boilerplate.svg?branch=master "TravisCI Build Status"
+[twitter-share-link]: https://twitter.com/home?status=https%3A//github.com/piggyslasher/bulletproof-node-boilerplate%0A
+[twitter-share-button]: https://img.shields.io/twitter/url/http/shields.io.svg?style=social
+[coverall-badge]: https://coveralls.io/repos/github/piggyslasher/bulletproof-node-boilerplate/badge.svg?branch=master
+[coverall-link]: https://coveralls.io/github/piggyslasher/bulletproof-node-boilerplate?branch=master
+
