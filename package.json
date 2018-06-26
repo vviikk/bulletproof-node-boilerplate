@@ -1,6 +1,6 @@
 {
   "name": "create-node-app-boilerplate",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Barebones NodeJS boilerplate",
   "main": "index.js",
   "bin": {

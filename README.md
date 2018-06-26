@@ -1,8 +1,11 @@
 # Bulletproof Nodejs Boilerplate
 
+![Package version][package-version]
 ![Travis build status][travis]
-[![Share on Twitter][twitter-share-button]][twitter-share-link]
+[![License: Unlicense][unlicense-badge]][unlicense-link]
 [![Coverage Status][coverall-badge]][coverall-link]
+[![PRs Welcome][pr-welcome-badge]][pr-welcome-link]
+[![Share on Twitter][twitter-share-button]][twitter-share-link]
 
 Lean, and functional boilerplate to get you started with creating a nodejs app. You have ES6/7, corresponding linting rules, a debugging config for `vscode`, Jest test runner.
 
@@ -25,7 +28,35 @@ It is also a good base for your node or CLI apps and is designed to be:
 - `create-nodejs-app` cli tool (WIP)
 - `live-reload` when you save a file.
 
-## Debug in vscode
+## Get started
+
+There are three ways of using this boilerplate.
+
+1. [Download the release][release-link] and extract
+2. Clone the repo without it's history:
+
+    ```bash
+    # clone this repo
+    git clone --depth=1 --branch=master https://github.com/piggyslasher/bulletproof-node-boilerplate.git youNewProject
+
+    rm -rf !$/.git #removes the .git directory
+    ```
+
+3. Use the `create-nodejs-app` (in progress :)
+
+### To start the app
+
+```bash
+# To just run the script and see output
+npm start # or
+yarn start
+
+# for development and live-reload
+npm run start:watch #or
+yarn run start:watch
+```
+
+## Debug in VSCode
 
 ![Debug using VSCode](./assets/debug-vscode.png "Debug using F5 in vscode")
 
@@ -51,11 +82,14 @@ It is also a good base for your node or CLI apps and is designed to be:
 - [X] debug using vscode's node debugger
   - [ ] use babel sourcemaps during debgging (workaround, use `debugger`)
 
-
-
 [travis]: https://travis-ci.org/piggyslasher/bulletproof-node-boilerplate.svg?branch=master "TravisCI Build Status"
 [twitter-share-link]: https://twitter.com/home?status=https%3A//github.com/piggyslasher/bulletproof-node-boilerplate%0A
 [twitter-share-button]: https://img.shields.io/twitter/url/http/shields.io.svg?style=social
 [coverall-badge]: https://coveralls.io/repos/github/piggyslasher/bulletproof-node-boilerplate/badge.svg?branch=master
 [coverall-link]: https://coveralls.io/github/piggyslasher/bulletproof-node-boilerplate?branch=master
-
+[package-version]: https://img.shields.io/github/package-json/v/badges/shields.svg
+[unlicense-badge]: https://img.shields.io/badge/license-Unlicense-blue.svg
+[unlicense-link]: http://unlicense.org/
+[pr-welcome-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[pr-welcome-link]: http://makeapullrequest.com
+[release-link]: https://github.com/piggyslasher/bulletproof-node-boilerplate/releases
