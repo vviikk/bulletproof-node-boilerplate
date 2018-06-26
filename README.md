@@ -5,6 +5,7 @@
 [![License: Unlicense][unlicense-badge]][unlicense-link]
 [![Coverage Status][coverall-badge]][coverall-link]
 [![PRs Welcome][pr-welcome-badge]][pr-welcome-link]
+[![NPS Security Check][nps-badge]][npm-link]
 [![Share on Twitter][twitter-share-button]][twitter-share-link]
 
 Lean, and functional boilerplate to get you started with creating a nodejs app. You have ES6/7, corresponding linting rules, a debugging config for `vscode`, Jest test runner.
@@ -93,3 +94,5 @@ yarn run start:watch
 [pr-welcome-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [pr-welcome-link]: http://makeapullrequest.com
 [release-link]: https://github.com/piggyslasher/bulletproof-node-boilerplate/releases
+[nps-badge]: https://nodesecurity.io/orgs/piggyslasher/projects/adada28d-fac7-4b5e-af41-3c1c437c396a/badge
+[npm-link]: https://nodesecurity.io/orgs/piggyslasher/projects/adada28d-fac7-4b5e-af41-3c1c437c396a
