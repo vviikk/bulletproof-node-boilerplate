@@ -1,5 +1,5 @@
 import { name, version } from '../package.json'
-import App from './app'
+import App from './penthouse-cli'
 import chalk from 'chalk'
 
 describe('App', () => {
@@ -27,5 +27,10 @@ describe('App', () => {
   it('works with async/await and resolves', async () => {
     expect.assertions(1)
     await expect(app.getVersion()).resolves.toEqual(version)
+  })
+
+  it('should return 2 when asked for deferred sum', async () => {
+    expect.assertions(1)
+    await expect(app.getSumD(1, 1)).resolves.toEqual(2)
   })
 })
